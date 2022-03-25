@@ -5,10 +5,10 @@ function Navbar() {
   return (
     <div>
 
-            <ul>
-                <li> <Link to="/">Pocetna</Link>  </li>
-                <li><Link to="/telefoni">Telefoni</Link>  </li>
-                <li><Link to="/onama">O nama</Link> </li>
+            <ul className='listaNavbar'>
+                <li className='elementListeNavbar'> <Link to="/">Pocetna</Link>  </li>
+                <li className='elementListeNavbar'><Link to="/telefoni">Telefoni</Link>  </li>
+                <li className='elementListeNavbar'><Link to="/onama">O nama</Link> </li>
                
             </ul>
 
