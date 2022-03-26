@@ -123,3 +123,52 @@
  
  
 
+/*kraj cssa za futer*/
+
+
+
+/*css za pocetnu*/
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.pocetna{
+  background-image: url("http://cdn.cnn.com/cnnnext/dam/assets/170808120609-phone-city-photo.jpg");
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 500px;
+  padding-bottom: 500px;
+  
+}
+ 
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: rgb(182, 182, 182);
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
