@@ -1,11 +1,11 @@
 import React from 'react'
 import TelefonKartica from './TelefonKartica'
 
-function Ponuda({telefoni}) {
+function Ponuda({telefoni,dodajTelefon}) {
   return (
-    <div>
+    <div className='sviTelefoni'>
            
-        {telefoni.map((t)=>(<TelefonKartica product={t}></TelefonKartica>))}
+        {telefoni.map((t)=>(<TelefonKartica key={t.id} product={t} dodajTelefon={dodajTelefon}></TelefonKartica>))}
 
 
 

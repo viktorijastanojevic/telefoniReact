@@ -8,7 +8,7 @@ function Navbar() {
             <ul className='listaNavbar'>
                 <li className='elementListeNavbar'> <Link to="/">Pocetna</Link>  </li>
                 <li className='elementListeNavbar'><Link to="/telefoni">Telefoni</Link>  </li>
-                <li className='elementListeNavbar'><Link to="/onama">O nama</Link> </li>
+                <li className='elementListeNavbar'><Link to="/uporedi">Uporedi</Link> </li>
                
             </ul>
 

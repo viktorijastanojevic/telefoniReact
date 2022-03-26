@@ -173,6 +173,11 @@ body, html {
   color: white;
 }
 
+
+ 
+
+
+
 /*kraj cssa za pocetnu*/
 
 
@@ -180,7 +185,7 @@ body, html {
 
 /*css za kartice*/
 
-/* za kartice*/
+ 
 
 * {
   box-sizing: border-box;
@@ -235,3 +240,18 @@ body{
   height:300px;
   width: auto;
 } 
+
+
+/*css za stranicu ponuda*/
+.sviTelefoni{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+  
+   margin-left: 9%;
+   margin-right:9%;
+   margin-top: 0;
+  justify-content: space-between;
+}
