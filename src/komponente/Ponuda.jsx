@@ -1,8 +1,17 @@
 import React from 'react'
+import TelefonKartica from './TelefonKartica'
 
-function Ponuda() {
+function Ponuda({telefoni}) {
   return (
-    <div>Ponuda</div>
+    <div>
+           
+        {telefoni.map((t)=>(<TelefonKartica product={t}></TelefonKartica>))}
+
+
+
+
+
+    </div>
   )
 }
 
