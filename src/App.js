@@ -100,7 +100,7 @@ function dodajTelefon(id){
         <Routes>
             <Route path="/" element={ <Pocetna></Pocetna>}></Route>
             <Route path="/telefoni" element={ <Ponuda  telefoni={telefoni} dodajTelefon={dodajTelefon}></Ponuda>}></Route>
-            <Route path="/uporedi" element={ <Uporedjivanje telefoniUporedjivanje={telefoniUporedjivanje}></Uporedjivanje>}></Route>
+            <Route path="/uporedi" element={ <Uporedjivanje telefoniUporedjivanje={telefoniUporedjivanje} brojTelefonaZaUporedjivanje={brojTelefonaZaUporedjivanje}></Uporedjivanje>}></Route>
             
         </Routes>
            
