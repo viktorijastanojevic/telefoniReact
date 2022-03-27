@@ -275,3 +275,29 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+
+
+/* za stranicu za uporedjivanje*/
+.telefoniUporedjivanje{
+
+  margin: 10%;
+
+
+
+}
+.celijaSlika{
+  max-width: 15%;
+}
+.slika{
+  max-width:250px;
+}
+
+.nemoguceUporedjivanje{
+   
+  
+  border-radius: 5px;
+  box-shadow: 5px 10px #888888;
+  padding: 50px;
+  text-align: center;
+}

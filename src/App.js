@@ -16,7 +16,7 @@ function App() {
 
     {
       id:1,
-      model: "Xiamo mi 11T",
+      model: "Xiaomi mi 11T",
       tezina: 200,
       ekran: "6,67",
       baterija: 5000,
@@ -30,21 +30,48 @@ function App() {
     },
     {
       id:2,
-      model: "Xiamo mi 10T",
+      model: "Iphone 13",
       tezina: 200,
       ekran: "6,67",
       baterija: 5000,
       kamera: 108,
       memorija: 128,
       boja: "siva",
-      cena: 60000,
-      slika: "https://static.tehnomanija.rs/UserFiles/products/2021/023/large/180916.webp",
+      cena: 120000,
+      slika: "https://static.tehnomanija.rs/UserFiles/products/2021/023/large/182599.webp",
       uporedi:0
 
     },
     {
       id:3,
-      model: "AAAAAA",
+      model: "Samsung s21",
+      tezina: 200,
+      ekran: "6,67",
+      baterija: 5000,
+      kamera: 108,
+      memorija: 128,
+      boja: "siva",
+      cena: 99000,
+      slika: "https://static.tehnomanija.rs/UserFiles/products/2021/005/large/160543.webp",
+      uporedi:0
+
+    },
+    {
+      id:4,
+      model: "ihphone 11",
+      tezina: 200,
+      ekran: "6,67",
+      baterija: 5000,
+      kamera: 108,
+      memorija: 128,
+      boja: "siva",
+      cena: 80690,
+      slika: "https://static.tehnomanija.rs/UserFiles/products/2020/003/large/157495.webp",
+      uporedi:0
+
+    },
+    {id:5,
+      model: "Xiaomi mi 11T",
       tezina: 200,
       ekran: "6,67",
       baterija: 5000,
@@ -57,16 +84,44 @@ function App() {
 
     },
     {
-      id:4,
-      model: "BBBBBB",
+      id:6,
+      model: "Iphone 13",
       tezina: 200,
       ekran: "6,67",
       baterija: 5000,
       kamera: 108,
       memorija: 128,
       boja: "siva",
-      cena: 60000,
-      slika: "https://static.tehnomanija.rs/UserFiles/products/2021/023/large/180916.webp",
+      cena: 120000,
+      slika: "https://static.tehnomanija.rs/UserFiles/products/2021/023/large/182599.webp",
+      uporedi:0
+
+    },
+    {
+      id:7,
+      model: "Samsung s21",
+      tezina: 200,
+      ekran: "6,67",
+      baterija: 5000,
+      kamera: 108,
+      memorija: 128,
+      boja: "siva",
+      cena: 99000,
+      slika: "https://static.tehnomanija.rs/UserFiles/products/2021/005/large/160543.webp",
+      uporedi:0
+
+    },
+    {
+      id:8,
+      model: "ihphone 11",
+      tezina: 200,
+      ekran: "6,67",
+      baterija: 5000,
+      kamera: 108,
+      memorija: 128,
+      boja: "siva",
+      cena: 80690,
+      slika: "https://static.tehnomanija.rs/UserFiles/products/2020/003/large/157495.webp",
       uporedi:0
 
     },
