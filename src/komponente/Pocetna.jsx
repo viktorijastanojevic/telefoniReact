@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Pocetna() {
    
@@ -10,9 +11,12 @@ function Pocetna() {
             
                 
                 <div className="hero-text">
-                    <h1  >I am John Doe</h1>
-                    <p>And I'm a Photographer</p>
-                    <button>Hire me</button>
+                    <h1  >Mobilni svet </h1>
+                    <p>Vasi omiljenii moblini telefoni po najpovoljnijim cenama</p>
+                    <p>Garancija 2 godine na sve uredjaje</p>
+                    <p>Mogucnost placanja na rate</p>
+
+                    
                
             </div>
 

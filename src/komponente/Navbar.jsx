@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function Navbar() {
+function Navbar({sortiraj}) {
   return (
     <div>
 
@@ -10,6 +10,9 @@ function Navbar() {
                 <li className='elementListeNavbar'><Link to="/telefoni">Telefoni</Link>  </li>
                 <li className='elementListeNavbar'><Link to="/uporedi">Uporedi</Link> </li>
                
+
+
+                 <li><button className='sortiranje' onClick={()=>sortiraj()}>Sortiraj</button></li>
             </ul>
 
 

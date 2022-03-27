@@ -10,6 +10,15 @@ import { useState } from "react";
 import Uporedjivanje from './komponente/Uporedjivanje';
 
 function App() {
+
+  const [sort, setSort] = useState(true);
+ function sortiraj(){
+      setSort(!sort);
+ }
+
+
+
+
   const [telefoniUporedjivanje, setTelefoniUporedjivanje] = useState([]);
   const [brojTelefonaZaUporedjivanje, setBrTelZaUp] = useState(0);
   const [telefoni] = useState([
@@ -151,10 +160,10 @@ function dodajTelefon(id){
   return (
     <div className="App">
       <BrowserRouter className="App">
-        <Navbar></Navbar>
+        <Navbar sortiraj={sortiraj}></Navbar>
         <Routes>
             <Route path="/" element={ <Pocetna></Pocetna>}></Route>
-            <Route path="/telefoni" element={ <Ponuda  telefoni={telefoni} dodajTelefon={dodajTelefon}></Ponuda>}></Route>
+            <Route path="/telefoni" element={ <Ponuda sort={sort} telefoni={telefoni} dodajTelefon={dodajTelefon}></Ponuda>}></Route>
             <Route path="/uporedi" element={ <Uporedjivanje telefoniUporedjivanje={telefoniUporedjivanje} brojTelefonaZaUporedjivanje={brojTelefonaZaUporedjivanje}></Uporedjivanje>}></Route>
             
         </Routes>
