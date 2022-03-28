@@ -227,10 +227,12 @@ body{
   
 }
 .naslovKartice{
-  font-size:25px;
+  font-size:35px;
 }
+
 .opisProizvoda{
-  font-size:25px;
+  font-size: large;
+   
 }
 .cenaRegularna{
   font-size:250px; 
@@ -249,6 +251,13 @@ body{
   height:300px;
   width: auto;
 } 
+
+ 
+
+
+
+
+
 
 
 /*css za stranicu ponuda*/

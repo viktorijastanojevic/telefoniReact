@@ -16,17 +16,16 @@ function TelefonKartica({product,dodajTelefon}) {
         
         
         <h4 className = "naslovKartice"> <BsFillPhoneFill></BsFillPhoneFill> {product.model}   </h4>
-        <p className="opisProizvoda"> <BsFillCameraFill></BsFillCameraFill>{product.kamera} MP</p>
-        <p className="opisProizvoda"> <MdMemory></MdMemory>{product.memorija} GB</p>
-       
-        <p className="opisProizvoda"> <FaWeightHanging></FaWeightHanging>{product.tezina} g</p>
-        <p className="opisProizvoda"> <MdMobileScreenShare></MdMobileScreenShare>{product.ekran} "</p>
-        <p className="opisProizvoda"> <BsBatteryFull></BsBatteryFull>{product.baterija} mAh</p>
-        
-        <p className='cenaRegularna'> <MdPriceChange></MdPriceChange> {product.cena} RSD </p>   
-        
-       
-         <button className='btn' onClick={()=>dodajTelefon(product.id)}> Uporedi <DiGitCompare></DiGitCompare></button>
+        <hr />
+        <h6 className="opisProizvoda"> 
+        <BsFillCameraFill></BsFillCameraFill>      Kamera: {product.kamera} MP 
+        <br /><br /><MdMemory></MdMemory>  Memorija:   {product.memorija} GB
+        <br /><br /> <FaWeightHanging></FaWeightHanging>  Tezina:  {product.tezina} g
+        <br /><br /> <MdMobileScreenShare></MdMobileScreenShare>  Ekran:  {product.ekran}"
+        <br /><br /> <BsBatteryFull></BsBatteryFull>  Baterija:  {product.baterija} mAh         
+        <br /><br /><MdPriceChange></MdPriceChange>  Cena: {product.cena} RSD 
+         </h6>
+         <button className='btn' onClick={()=>dodajTelefon(product.id)} style={{background:"#adcaf7",marginLeft:"60%"}}> Uporedi <DiGitCompare></DiGitCompare></button>
         
     </div> 
 </div>

@@ -67,7 +67,7 @@ function App() {
     },
     {
       id:4,
-      model: "ihphone 11",
+      model: "iphone 11",
       tezina: 200,
       ekran: "6,67",
       baterija: 5000,
@@ -122,7 +122,7 @@ function App() {
     },
     {
       id:8,
-      model: "ihphone 11",
+      model: "iphone 11",
       tezina: 200,
       ekran: "6,67",
       baterija: 5000,
